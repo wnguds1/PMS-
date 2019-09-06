@@ -7,23 +7,23 @@
   <meta name="description" content="">
   <meta name="author" content="Dashboard">
   <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
-  <title>Dashio - Bootstrap Admin Template</title>
+  <title>Dashio - Bootstrap Admin Templateasdf</title>
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="resources/img/favicon.png" rel="icon">
+  <link href="resources/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Bootstrap core CSS -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="resources/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!--external css-->
-  <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href="css/zabuto_calendar.css">
-  <link rel="stylesheet" type="text/css" href="lib/gritter/css/jquery.gritter.css" />
+  <link href="resources/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="/resources/css/zabuto_calendar.css">
+  <link rel="stylesheet" type="text/css" href="/resources/lib/gritter/css/jquery.gritter.css" />
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/style-responsive.css" rel="stylesheet">
-  <script src="lib/chart-master/Chart.js"></script>
-
+  <link href="resources/css/style.css" rel="stylesheet">
+  <link href="resources/css/style-responsive.css" rel="stylesheet">
+  <script src="resources/lib/chart-master/Chart.js"></script>
+  
   <!-- =======================================================
     Template Name: Dashio
     Template URL: https://templatemag.com/dashio-bootstrap-admin-template/
@@ -43,7 +43,7 @@
         <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
       </div>
       <!--logo start-->
-      <a href="index.html" class="logo"><b>DASH<span>IO</span></b></a>
+      <a href="index.jsp" class="logo"><strong>Processware</strong></a>
       <!--logo end-->
       <div class="nav notify-row" id="top_menu">
         <!--  notification start -->
@@ -245,12 +245,12 @@
       <div id="sidebar" class="nav-collapse ">
         <!-- sidebar menu start-->
         <ul class="sidebar-menu" id="nav-accordion">
-          <p class="centered"><a href="profile.html"><img src="img/ui-sam.jpg" class="img-circle" width="80"></a></p>
-          <h5 class="centered">Sam Soffes</h5>
+          
+          
           <li class="mt">
             <a class="active" href="index.html">
               <i class="fa fa-dashboard"></i>
-              <span>Dashboard</span>
+              <span>메인화면</span>
               </a>
           </li>
           <li class="sub-menu">
@@ -494,7 +494,7 @@
               <div class="col-md-4 mb">
                 <div class="weather pn">
                   <i class="fa fa-cloud fa-4x"></i>
-                  <h2>11º C</h2>
+                  <h2>11Âº C</h2>
                   <h4>BUDAPEST</h4>
                 </div>
               </div>
@@ -721,7 +721,7 @@
             <!-- First Member -->
             <div class="desc">
               <div class="thumb">
-                <img class="img-circle" src="img/ui-divya.jpg" width="35px" height="35px" align="">
+                <img class="img-circle" src="resources/img/ui-divya.jpg" width="35px" height="35px" align="">
               </div>
               <div class="details">
                 <p>
@@ -733,7 +733,7 @@
             <!-- Second Member -->
             <div class="desc">
               <div class="thumb">
-                <img class="img-circle" src="img/ui-sherman.jpg" width="35px" height="35px" align="">
+                <img class="img-circle" src="resources/img/ui-sherman.jpg" width="35px" height="35px" align="">
               </div>
               <div class="details">
                 <p>
@@ -745,7 +745,7 @@
             <!-- Third Member -->
             <div class="desc">
               <div class="thumb">
-                <img class="img-circle" src="img/ui-danro.jpg" width="35px" height="35px" align="">
+                <img class="img-circle" src="resources/img/ui-danro.jpg" width="35px" height="35px" align="">
               </div>
               <div class="details">
                 <p>
@@ -757,7 +757,7 @@
             <!-- Fourth Member -->
             <div class="desc">
               <div class="thumb">
-                <img class="img-circle" src="img/ui-zac.jpg" width="35px" height="35px" align="">
+                <img class="img-circle" src="resources/img/ui-zac.jpg" width="35px" height="35px" align="">
               </div>
               <div class="details">
                 <p>
@@ -810,21 +810,21 @@
     <!--footer end-->
   </section>
   <!-- js placed at the end of the document so the pages load faster -->
-  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="resources/lib/jquery/jquery.min.js"></script>
 
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script class="include" type="text/javascript" src="lib/jquery.dcjqaccordion.2.7.js"></script>
-  <script src="lib/jquery.scrollTo.min.js"></script>
-  <script src="lib/jquery.nicescroll.js" type="text/javascript"></script>
-  <script src="lib/jquery.sparkline.js"></script>
+  <script src="resources/lib/bootstrap/js/bootstrap.min.js"></script>
+  <script class="include" type="text/javascript" src="resources/lib/jquery.dcjqaccordion.2.7.js"></script>
+  <script src="resources/lib/jquery.scrollTo.min.js"></script>
+  <script src="resources/lib/jquery.nicescroll.js" type="text/javascript"></script>
+  <script src="resources/lib/jquery.sparkline.js"></script>
   <!--common script for all pages-->
-  <script src="lib/common-scripts.js"></script>
-  <script type="text/javascript" src="lib/gritter/js/jquery.gritter.js"></script>
-  <script type="text/javascript" src="lib/gritter-conf.js"></script>
+  <script src="resources/lib/common-scripts.js"></script>
+  <script type="text/javascript" src="resources/lib/gritter/js/jquery.gritter.js"></script>
+  <script type="text/javascript" src="resources/lib/gritter-conf.js"></script>
   <!--script for this page-->
-  <script src="lib/sparkline-chart.js"></script>
-  <script src="lib/zabuto_calendar.js"></script>
-  <script type="text/javascript">
+  <script src="resources/lib/sparkline-chart.js"></script>
+  <script src="resources/lib/zabuto_calendar.js"></script>
+  <script type="resources/text/javascript">
     $(document).ready(function() {
       var unique_id = $.gritter.add({
         // (string | mandatory) the heading of the notification

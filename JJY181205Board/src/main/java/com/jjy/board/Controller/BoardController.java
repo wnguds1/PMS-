@@ -44,7 +44,7 @@ public class BoardController {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
-		return "home";
+		return "Theme/index";
 	}
 	
 	@RequestMapping(value = "/join", method = RequestMethod.POST)
