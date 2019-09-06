@@ -265,7 +265,7 @@
               </a>
             <ul class="sub">
               <li><a href="general.html">회의록</a></li>
-              <li><a href="/Theme/ScheduleCheck.jsp">일정문의</a></li>
+              <li><a href="Theme/ScheduleCheck.jsp">일정문의</a></li>
               <li><a href="panels.html">일감조회</a></li>
               <li><a href="font_awesome.html">회의소집</a></li>
               <li><a href="font_awesome.html">일일,주간보고 작성</a></li>
