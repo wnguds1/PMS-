@@ -46,6 +46,10 @@ public class BoardController {
 	public String home(Locale locale, Model model) {
 		return "Theme/index";
 	}
+	@RequestMapping(value = "ScheduleCheck", method = RequestMethod.GET)
+	public String ScheduleCheck(Locale locale, Model model) {
+		return "Theme/ScheduleCheck";
+	}
 	
 	@RequestMapping(value = "/join", method = RequestMethod.POST)
 	public ModelAndView Join(@ModelAttribute MemberVO memberVO,HttpServletResponse response) {
