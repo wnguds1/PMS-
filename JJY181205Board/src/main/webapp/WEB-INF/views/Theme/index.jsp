@@ -1,5 +1,9 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
   <meta charset="utf-8">
@@ -7,7 +11,7 @@
   <meta name="description" content="">
   <meta name="author" content="Dashboard">
   <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
-  <title>Dashio - Bootstrap Admin Templateasdf</title>
+  <title>Processware - AI </title>
 
   <!-- Favicons -->
   <link href="resources/img/favicon.png" rel="icon">
@@ -255,35 +259,46 @@
           </li>
           <li class="sub-menu">
             <a href="javascript:;">
-              <i class="fa fa-desktop"></i>
-              <span>UI Elements</span>
+            <i class="fa fa-comments-o"></i>
+            <!-- <i class="fa fa-cogs"></i> -->
+              <span>Voice</span>
               </a>
             <ul class="sub">
-              <li><a href="general.html">General</a></li>
-              <li><a href="buttons.html">Buttons</a></li>
-              <li><a href="panels.html">Panels</a></li>
-              <li><a href="font_awesome.html">Font Awesome</a></li>
+              <li><a href="general.html">회의록</a></li>
+              <li><a href="/Theme/ScheduleCheck.jsp">일정문의</a></li>
+              <li><a href="panels.html">일감조회</a></li>
+              <li><a href="font_awesome.html">회의소집</a></li>
+              <li><a href="font_awesome.html">일일,주간보고 작성</a></li>
             </ul>
           </li>
           <li class="sub-menu">
             <a href="javascript:;">
-              <i class="fa fa-cogs"></i>
-              <span>Components</span>
+			<i class="fa fa-desktop"></i>              
+              <span>Image</span>
               </a>
             <ul class="sub">
-              <li><a href="grids.html">Grids</a></li>
-              <li><a href="calendar.html">Calendar</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="todo_list.html">Todo List</a></li>
-              <li><a href="dropzone.html">Dropzone File Upload</a></li>
-              <li><a href="inline_editor.html">Inline Editor</a></li>
-              <li><a href="file_upload.html">Multiple File Upload</a></li>
+              <li><a href="grids.html">영수증 처리</a></li>
+              <li><a href="calendar.html">영수증 월말 결산</a></li>
+              
             </ul>
           </li>
-          <li class="sub-menu">
+           <li class="sub-menu">
+            <a href="javascript:;">
+              <i class="fa fa-tasks"></i>
+              <span>Language</span>
+              </a>
+            <ul class="sub">
+              <li><a href="form_component.html">회의록 분석</a></li>
+              <li><a href="advanced_form_components.html">프로젝트 업무 분류</a></li>
+              <li><a href="form_validation.html">성과 측정</a></li>
+              
+            </ul>
+          </li>
+          
+          <!-- <li class="sub-menu">
             <a href="javascript:;">
               <i class="fa fa-book"></i>
-              <span>Extra Pages</span>
+              <span>Setting</span>
               </a>
             <ul class="sub">
               <li><a href="blank.html">Blank Page</a></li>
@@ -297,18 +312,7 @@
               <li><a href="500.html">500 Error</a></li>
             </ul>
           </li>
-          <li class="sub-menu">
-            <a href="javascript:;">
-              <i class="fa fa-tasks"></i>
-              <span>Forms</span>
-              </a>
-            <ul class="sub">
-              <li><a href="form_component.html">Form Components</a></li>
-              <li><a href="advanced_form_components.html">Advanced Components</a></li>
-              <li><a href="form_validation.html">Form Validation</a></li>
-              <li><a href="contactform.html">Contact Form</a></li>
-            </ul>
-          </li>
+         
           <li class="sub-menu">
             <a href="javascript:;">
               <i class="fa fa-th"></i>
@@ -341,7 +345,7 @@
           </li>
           <li class="sub-menu">
             <a href="javascript:;">
-              <i class="fa fa-comments-o"></i>
+              
               <span>Chat Room</span>
               </a>
             <ul class="sub">
@@ -355,7 +359,7 @@
               <span>Google Maps </span>
               </a>
           </li>
-        </ul>
+        </ul> -->
         <!-- sidebar menu end-->
       </div>
     </aside>
