@@ -12,7 +12,7 @@
 <form action="join" method="POST">
 <table>
 <tr><td>
-아이디dd : <input type="text" name="id">
+아이디ddghjghj나나너ㅏㄴ : <input type="text" name="id">
 </td></tr>
 <tr><td>
 비밀번호 : <input type="password" name="pw">
