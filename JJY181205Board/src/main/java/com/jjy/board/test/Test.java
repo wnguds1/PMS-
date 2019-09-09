@@ -5,8 +5,8 @@ import java.io.*;
 public class Test {
 	public static void main(String[] args) throws IOException {
 		ProcessBuilder pb = new ProcessBuilder("curl",
-				"-s", 
-				"http://localhost:81/redmine/issues.json?key=b579df13ce6a80d247fbe91358024acfb6d91ac3");
+				"-g", 
+				"http://localhost:81/redmine/issues/2.json?key=b579df13ce6a80d247fbe91358024acfb6d91ac3");
 		System.out.println("Asdf"+pb);
 		Process p = pb.start();
 		InputStream is = p.getInputStream();
